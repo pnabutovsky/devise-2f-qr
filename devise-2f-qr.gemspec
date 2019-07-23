@@ -3,13 +3,13 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'version'
 
 Gem::Specification.new do |s|
-  s.name        = 'devise-2f-qr'
+  s.name        = 'devise-two-factor-qr'
   s.version     = Devise::TwoFactorQr::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.licenses    = ['MIT']
   s.summary     = 'Devise second factor authentication with a QR code'
   s.email       = 'pavel.nabutovsky@quoininc.com'
-  s.homepage    = 'https://github.com/pnabutovsky/devise-two-factor'
+  s.homepage    = 'https://github.com/pnabutovsky/devise-two-factor-qr'
   s.description = 'Devise second factor authentication with a QR code'
   s.authors     = ['Pavel Nabutovsky']
 
