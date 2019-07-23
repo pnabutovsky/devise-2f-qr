@@ -4,7 +4,7 @@ require 'version'
 
 Gem::Specification.new do |s|
   s.name        = 'devise-2f-qr'
-  s.version     = Devise2fQr::VERSION.dup
+  s.version     = Devise::TwoFactorQr::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.licenses    = ['MIT']
   s.summary     = 'Devise second factor authentication with a QR code'

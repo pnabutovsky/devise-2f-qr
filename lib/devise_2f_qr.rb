@@ -4,7 +4,7 @@ require 'devise'
 
 module Devise
 
-  module 2fQr
+  module TwoFactorQr
 
 
 
