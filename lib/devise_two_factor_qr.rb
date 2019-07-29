@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 require 'devise'
-require 'devise_two_factor/models'
-require 'devise_two_factor/strategies'
+require 'devise_two_factor_qr/models'
+require 'devise_two_factor_qr/strategies'
 
 module Devise
 
-  matrr_accessor :qr_bypass
+  mattr_accessor :qr_bypass
   @@qr_bypass = false
 
 end
