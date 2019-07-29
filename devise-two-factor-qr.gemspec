@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = 'Devise second factor authentication with a QR code'
   s.authors     = ['Pavel Nabutovsky']
 
+  s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_paths = ['lib']
 
